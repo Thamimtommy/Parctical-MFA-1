@@ -1,0 +1,171 @@
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.header a img{
+	width:200px;
+	height:100px;
+	margin-left:20px;	
+}
+.navigation__list li{
+	display:inline;
+	flex-direction:row;
+    margin-right:20px;
+}
+.navigation__link{
+    text-decoration: none;
+	color:black;
+	font-family:"Source Sans Pro";
+    font-size:20px;
+	font-weight:1000;
+}
+.header button{
+	font-size: 16px;
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    border-radius:7px;
+    border:3px solid;
+    cursor:pointer;
+    margin-right: 30px;
+    background-color: #C05326;
+    color: #fff;
+	
+
+}
+
+.alert{
+	background-color:#f7eae4;
+	padding:25px;
+	font-size: 20px;
+	border-style:solid;
+	border-width:0px 0px 0px 5px;
+	border-color: #c05326;
+	margin-right:0px;
+	margin-left:20px;
+	border-radius:5px;
+
+}
+.text-highlight{
+	color: #c05326;
+}
+.hero{
+	background-image: url('../img/header-bike.jpg');
+	width:900px;
+	height:170px;
+	top:25px;
+	position:relative;
+	top:25px;
+	background-color:rgb(131, 131, 230);
+	padding-top:100px;
+	padding-bottom: 100px;
+	padding-left:25px;
+	background-image:url(../img/header-bike.jpg);
+	color:white;
+	margin-left:20px;
+
+
+
+}
+.content{
+	display: flex;
+}
+
+.hero button{
+	color: white;
+	background-color: #c05326;
+	border-radius:0px;
+	border-color: #c05326;
+	padding: 10px;
+	cursor:pointer;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+.hero .btn{
+	color: #c05326;
+	background-color: white;
+	border-color: white;
+	font-weight: bold;
+	cursor:pointer;
+	font-size: 16px;
+
+}
+
+.article__thumbnail{
+	width: 80px;
+	height: 90px;
+} 
+.heading-underline{
+	      position: relative;
+		  top: 20px;
+		  font-weight: 600;
+		  margin-left: 20px;
+		  margin-bottom:10px;
+}
+.heading-underline h2{
+	position: relative;
+	left: 5px;
+
+}
+.article {
+    margin-top: 30px;
+    width: 48%;
+    border: 2px solid #E4E4E4;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family:"Source Sans Pro";
+	
+}
+.article__title {
+    padding:10px;
+}
+.article__summary {
+    padding:10px;
+}
+.article__read-more {
+    margin-top:10px;
+}
+.article__read-more a {
+    color: #C05326;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.facebook-link{
+    padding: 10px;
+    color: #C05326;
+    float: right;
+}
+
+#boom{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 20px;
+}
+.sidebar .article{
+	border:2px solid #E4E4E4;
+	padding:10px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	margin-left:40px;
+	margin-bottom:20px;
+    margin-right:40px;
+}
+
+
+
+
+	
+
+
